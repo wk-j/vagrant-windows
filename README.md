@@ -3,6 +3,7 @@
 ```bash
 vagrant up
 vagrant rdp
+vagrant provision
 ```
 
 ## Resource
