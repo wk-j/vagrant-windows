@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
     # config.vm.provision "shell", inline: "echo Hello, World"
 
     config.vm.provision "shell", inline: "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All"
+    config.vm.provision "shell", inline: "Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET48"
 
     config.vm.provision "shell" do |shell|
         shell.path = "config/install.ps1"

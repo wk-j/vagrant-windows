@@ -6,6 +6,7 @@
 vagrant up
 vagrant rdp
 vagrant provision
+vagrant destroy
 ```
 
 ## Resource
