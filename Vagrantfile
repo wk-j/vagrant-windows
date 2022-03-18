@@ -2,7 +2,7 @@ Vagrant.configure("2") do |config|
     config.vm.box = "jacqinthebox/windows10"
     config.vm.box_version = "0.1"
     config.vm.network "forwarded_port", guest: 3389, host: 3389
-    config.vm.network "private_network", ip: "192.168.33.33"
+    config.vm.network "private_network", ip: "192.168.56.33"
 
     config.winrm.username = "vagrant"
     config.winrm.password = "vagrant"

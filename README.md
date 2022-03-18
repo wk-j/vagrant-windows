@@ -1,5 +1,7 @@
 ## Windows
 
+- [x] Sync folder
+
 ```bash
 vagrant up
 vagrant rdp
